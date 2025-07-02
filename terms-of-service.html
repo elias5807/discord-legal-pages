@@ -1,10 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>Conditions d'utilisation</title></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions d'Utilisation - [Nom du Bot]</title>
+    <style>
+        :root {
+            --discord-blurple: #5865F2;
+            --discord-dark: #2C2F33;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 3px solid var(--discord-blurple);
+        }
+        h1 {
+            color: var(--discord-blurple);
+        }
+        h2 {
+            color: var(--discord-dark);
+            margin-top: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #ddd;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #666;
+            text-align: right;
+        }
+        a {
+            color: var(--discord-blurple);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .warning {
+            background-color: #fff3cd;
+            padding: 1rem;
+            border-left: 4px solid #ffc107;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
 <body>
-  <h1>Conditions d'utilisation du bot Discord</h1>
-  <p>Ce bot est fourni gratuitement pour améliorer l'expérience utilisateur sur les serveurs Discord. En l'ajoutant, vous acceptez qu'il accède aux messages et informations nécessaires à son fonctionnement.</p>
-  <p>Nous nous réservons le droit de modifier ces conditions à tout moment.</p>
-  <p>Contact : contact@example.com</p>
+    <header>
+        <h1>Conditions d'Utilisation de [Nom du Bot]</h1>
+        <p class="last-updated">Dernière mise à jour : 02/07/2025</p>
+    </header>
+
+    <section>
+        <div class="warning">
+            <strong>⚠ Attention :</strong> En utilisant ce bot Discord, vous acceptez pleinement ces conditions d'utilisation.
+        </div>
+
+        <h2>1. Acceptation des Conditions</h2>
+        <p>L'utilisation du bot Discord LeBotCoin, est soumise à votre acceptation des présentes conditions d'utilisation.</p>
+
+        <h2>2. Licence d'Utilisation</h2>
+        <p>Nous vous accordons une licence non-exclusive, révocable et non transférable pour utiliser le Bot conformément à ces conditions.</p>
+
+        <h2>3. Restrictions d'Utilisation</h2>
+        <p>Il est strictement interdit de :</p>
+        <ul>
+            <li>Utiliser le Bot pour violer les Conditions d'Utilisation de Discord</li>
+            <li>Automatiser des commandes via des scripts externes</li>
+            <li>Utiliser le Bot à des fins illégales ou frauduleuses</li>
+            <li>Contourner les limitations techniques du Bot</li>
+            <li>Reproduire ou revendre le Bot sans autorisation</li>
+        </ul>
+
+        <h2>4. Collecte de Données</h2>
+        <p>Le Bot peut collecter et stocker les données suivantes :</p>
+        <ul>
+            <li>ID utilisateur et serveur Discord</li>
+            <li>Pseudonymes et avatars</li>
+            <li>Configuration des serveurs utilisant le Bot</li>
+            <li>Journaux d'activité des commandes</li>
+        </ul>
+        <p>Consultez notre <a href="[https://elias5807.github.io/discord-legal-pages/privacy-policy.html]">Politique de Confidentialité</a> pour plus de détails.</p>
+
+        <h2>5. Responsabilités</h2>
+        <p>Nous déclinons toute responsabilité pour :</p>
+        <ul>
+            <li>Les interruptions de service non planifiées</li>
+            <li>Les pertes de données</li>
+            <li>L'utilisation inappropriée du Bot par des tiers</li>
+        </ul>
+
+        <h2>6. Modifications</h2>
+        <p>Nous nous réservons le droit de modifier ces conditions à tout moment. Les utilisateurs seront avertis via :</p>
+        <ul>
+            <li>Une notification dans notre serveur Discord</li>
+            <li>Un message système lors de l'utilisation du Bot</li>
+        </ul>
+
+        <h2>7. Résiliation</h2>
+        <p>Nous pouvons résilier votre accès au Bot sans préavis si vous violez ces conditions. Les motifs incluent :</p>
+        <ul>
+            <li>Abus des fonctionnalités du Bot</li>
+            <li>Comportement nuisible à la communauté</li>
+            <li>Violation des lois en vigueur</li>
+        </ul>
+
+        <h2>8. Loi Applicable</h2>
+        <p>Ces conditions sont régies par les lois françaises. Tout litige relèvera des tribunaux compétents de [Votre Ville, France].</p>
+
+        <h2>9. Contact</h2>
+        <p>Pour toute question concernant ces conditions :</p>
+        <ul>
+            <li>Email : <a href="mailto:constructbot.studio@gmail.com">constructbot.studio@gmail.com </a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> LeBotCoin. Tous droits réservés.</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
 </body>
 </html>
